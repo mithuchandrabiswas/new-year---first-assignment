@@ -459,3 +459,82 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* ---------Footer Section------- */
+.footer-section {
+    background: #070211;
+    padding: 60px 100px;
+}
+
+.footer-section .footer-upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .footer-upper .address {}
+
+.footer-section .footer-upper .address p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-section .footer-upper .contact {}
+
+.footer-section .footer-upper .contact p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-section .footer-upper .contact p>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.footer-section .line {
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.15);
+    position: relative;
+    top: o;
+    left: 0;
+    margin: 50px 0;
+}
+
+.footer-section .footer-social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .footer-copyright p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-section .footer-copyright button {
+    border: o;
+    outline: 0;
+    background: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
