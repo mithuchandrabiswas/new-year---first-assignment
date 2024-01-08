@@ -3,9 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
     margin-bottom: 120px;
+}
+
+
+
+/* ---------Banner Section------ */
+.banner-section {
+    background-image: url('../images/Banner\ Image-edit.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 150px 0;
+}
+
+.banner-section .banner-content {}
+
+.banner-section .banner-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.banner-section .banner-content h1 {
+    max-width: 632px;
+    text-align: center;
+    margin: auto;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
 }
