@@ -97,16 +97,28 @@
 .welcome-section {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 80px 80px;
+    background-size: cover;
+    padding-left: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    position: relative;
+}
+.welcome-section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
 .welcome-section .welcome-content {
     width: 65%;
+    margin: auto;
+    z-index: 111;
 }
 
 .welcome-section .welcome-content h2 {
@@ -145,6 +157,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 40px;
 }
 
 .welcome-section .welcome-image {
@@ -350,11 +363,6 @@
     border-radius: 16px 16px 0px 0px;
 }
 
-
-
-
-
-
 /* ----------- Portfolio Section-------- */
 .portfolio-section {
     margin-top: 120px;
@@ -539,7 +547,7 @@
 }
 
 .footer-section .footer-copyright button {
-    border: o;
+    border: 0;
     outline: 0;
     background: none;
     cursor: pointer;
@@ -547,55 +555,5 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-}
-
-
-/* ----------------- */
-.function-section {
-    text-align: center;
-}
-
-.function-section .function-content h3 {
-    color: #070211;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.function-section .function-content h1 {
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    margin-bottom: 20px;
-}
-
-.function-section .function-content h1>span {
-    color: #F00;
-}
-
-.function-section .function-content p {
-    max-width: 750px;
-    margin: 0 auto;
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    margin-bottom: 20px;
-}
-.function-section .function-image {
-    display: flex;
-}
-.function-section .function-image .one{
-    width: 60%;
-}
-.function-section .function-image .two{
-    width: 40%;
+    z-index: 111;
 }
