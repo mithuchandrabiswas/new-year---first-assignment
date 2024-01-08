@@ -19,6 +19,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     padding: 150px 0;
+    margin-top: 50px;
 }
 
 .banner-section .banner-content {}
@@ -313,13 +314,18 @@
 
 .functional-section .functional-images {
     display: flex;
-    width: 100%;
-    background-image: url(../images/Group\ 44.png);
-    background-repeat: no-repeat;
     position: relative;
-    left: 50%;
-    top: 0;
-
+}
+.functional-section .functional-images::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Group\ 44.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 620px;
+    border-radius: 16px 0px 16px 16px;
 }
 
 .functional-section .functional-images::after {
@@ -329,16 +335,18 @@
     background-image: url("../images/Rectangle\ 2.png");
     background-repeat: no-repeat;
     position: absolute;
-    top: 100%;
+    top: 450px;
     left: 0;
+    border-radius: 16px 0px 16px 16px;
 }
 
 .functional-section .functional-images .img-1 {
-    width: 60%;
+    width: 70%;
+    z-index: 11;
 }
 
 .functional-section .functional-images .img-2 {
-    width: 40%;
+    width: 30%;
     border-radius: 16px 16px 0px 0px;
 }
 
@@ -348,7 +356,9 @@
 
 
 /* ----------- Portfolio Section-------- */
-.portfolio-section {}
+.portfolio-section {
+    margin-top: 120px;
+}
 
 .portfolio-section .portfolio-content {}
 
@@ -537,4 +547,55 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+}
+
+
+/* ----------------- */
+.function-section {
+    text-align: center;
+}
+
+.function-section .function-content h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.function-section .function-content h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.function-section .function-content h1>span {
+    color: #F00;
+}
+
+.function-section .function-content p {
+    max-width: 750px;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.function-section .function-image {
+    display: flex;
+}
+.function-section .function-image .one{
+    width: 60%;
+}
+.function-section .function-image .two{
+    width: 40%;
 }
