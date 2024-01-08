@@ -8,7 +8,7 @@
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 
@@ -33,6 +33,7 @@
     line-height: normal;
     margin-bottom: 20px;
 }
+
 .banner-section .banner-content h1 {
     max-width: 632px;
     text-align: center;
@@ -44,4 +45,112 @@
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+/* ----------OFF or Discount Section--------- */
+.off-section {}
+
+.off-section h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off-section h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.off-section h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off-section .off-section-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.off-section .off-section-img img {
+    width: 600px;
+    height: 500px;
+}
+
+/* --------Welcome Section------ */
+.welcome-section {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.welcome-section .welcome-content {
+    width: 65%;
+}
+
+.welcome-section .welcome-content h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-section .welcome-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 48px;
+}
+
+.welcome-section .welcome-content button {
+    outline: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.welcome-section .welcome-image {
+    width: 35%;
+}
+
+.welcome-section .welcome-image img {
+    width: 320px;
+    height: 410px;
 }
