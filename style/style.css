@@ -8,9 +8,8 @@
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
-
 
 
 /* ---------Banner Section------ */
@@ -158,6 +157,10 @@
     line-height: normal;
     text-transform: uppercase;
     margin-left: 40px;
+    transition: .5s;
+}
+.welcome-section .welcome-content button:hover {
+    letter-spacing: 2px;
 }
 
 .welcome-section .welcome-image {
@@ -203,6 +206,11 @@
     outline: 0;
     border: 0;
     cursor: pointer;
+    transition: .5s;
+}
+.event-details-section button:hover {
+    background: rgb(144, 57, 57);
+
 }
 
 /* -------Offer Section----- */
@@ -281,6 +289,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin: 10px 0;
     /* 160% */
 }
 
@@ -322,7 +331,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 .functional-section .functional-images {
